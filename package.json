@@ -1,0 +1,18 @@
+{
+  "name": "n8n-mockups-workflow",
+  "version": "1.0.0",
+  "description": "N8N Mockups Ads Workflow - API for N8n webhook integration",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "node api/index.js"
+  },
+  "keywords": ["n8n", "workflow", "ads", "api"],
+  "author": "Scott",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.0.3",
+    "cors": "^2.8.5"
+  }
+}
